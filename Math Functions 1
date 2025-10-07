@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float num = sc.nextFloat();   
+        int squareNum = sc.nextInt(); 
+        int base = sc.nextInt();      
+        int power = sc.nextInt();     
+        System.out.println((int)Math.floor(num)); 
+        System.out.println((int)Math.ceil(num));  
+        System.out.println((int)Math.sqrt(squareNum));
+        System.out.println((int)Math.pow(base, power));
+    }
+}
