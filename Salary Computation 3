@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Example {
+
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+        double basic=sc.nextDouble();
+        double gross=basic*2.05;
+        System.out.printf("%.2f\n",gross);
+    }
+        
+}
