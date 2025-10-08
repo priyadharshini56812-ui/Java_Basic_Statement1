@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class example {
+
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+        int costA4 = sc.nextInt();
+        int costPen = sc.nextInt();
+        int costPencil = sc.nextInt();
+        int costEraser = sc.nextInt();
+        System.out.println("Items Details");
+        System.out.println("A4sheet:" + costA4);
+        System.out.println("Pen:" + costPen);
+        System.out.println("Pencil:" + costPencil);
+        System.out.println("Eraser:" + costEraser);
+      
+    }
+}
