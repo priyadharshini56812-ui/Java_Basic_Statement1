@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+public class Solution {
+  public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if(n > 0 && n < 1000000000 ){
+            int reversed = 0;
+            int temp = n;
+             while(temp > 0){
+                 int digit = temp % 10;     
+                 reversed = reversed * 10 + digit;  
+                 temp = temp / 10;
+             }
+            
+            System.out.println(reversed);
+            
+        } else {
+        System.out.println("Invalid Input");
+     }
+    } 
+}
