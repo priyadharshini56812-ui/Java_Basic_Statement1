@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = Integer.toString(n);
+        if (s.length() < 2) {
+            System.out.println("STDOUT");
+        } else {
+            int first = s.charAt(0) - '0';
+            int second = s.charAt(1) - '0';
+            int swapped = second * 10 + first;
+            System.out.println(swapped);
+        }
+    }
+}
